@@ -5,3 +5,6 @@
 .hero {
   background: url(../img/foto_home.jpg) no-repeat center;
 }
+.img-cover{
+  width: 100%;
+}
