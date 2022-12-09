@@ -1,0 +1,7 @@
+#intro {
+  height: 100vh;
+  background-size: cover !important;
+}
+.hero {
+  background: url(../img/foto_home.jpg) no-repeat center;
+}
