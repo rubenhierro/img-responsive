@@ -3,8 +3,31 @@
   background-size: cover !important;
 }
 .hero {
-  background: url(../img/foto_home.jpg) no-repeat center;
+  background: url(../img/hero.png) no-repeat center;
 }
 .img-cover{
   width: 100%;
+}
+
+a.rounded-link {
+  display: inline-block;
+  color: #fff;
+  background-color: #08547A;
+  text-decoration: none;
+  border-radius: 2em;
+  padding: 10px 50px;
+  margin-top: 50px;
+  font-size: 17px
+}
+
+@media screen and (min-width: 540px) {
+  a.rounded-link {
+      font-size:calc(.43478vw + 14.65217px)
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  a.rounded-link,input.rounded-link {
+      font-size:23px
+  }
 }
