@@ -5,6 +5,9 @@
 .hero {
   background: url(../img/hero.png) no-repeat center;
 }
+.hero2 {
+  background: url(../img/hero2.png) no-repeat center;
+}
 .img-cover{
   width: 100%;
 }
